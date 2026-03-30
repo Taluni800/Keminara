@@ -5,10 +5,10 @@ import AppContent from './components/AppContent/AppContent';
 function App() {
   return (
     <div className="layout">
-      <header className="topbar"> <Topbar /> </header>
+      <Topbar />
       <div className="content">
-        <aside className="sidebar"> <Sidebar /></aside>
-        <main className="app-content"> <AppContent /> </main>
+        <Sidebar />
+        <AppContent />
       </div>
     </div>
   )
