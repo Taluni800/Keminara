@@ -1,17 +1,18 @@
-import Topbar from './components/Topbar/Topbar';
-import Sidebar from './components/Sidebar/Sidebar';
-import AppContent from './components/AppContent/AppContent';
+import "./App.css";
+import Topbar from "./components/Topbar/Topbar";
+import Sidebar from "./components/Sidebar/Sidebar";
+import AppContent from "./components/AppContent/AppContent";
 
 function App() {
   return (
-    <div className="layout">
+    <div className="app">
       <Topbar />
-      <div className="content">
+      <div className="layout">
         <Sidebar />
         <AppContent />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
